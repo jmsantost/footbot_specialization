@@ -1,0 +1,3 @@
+/home/jm/argos3/footbot_specialization/build/CMakeFiles/footbot_specialization.dir
+/home/jm/argos3/footbot_specialization/build/CMakeFiles/edit_cache.dir
+/home/jm/argos3/footbot_specialization/build/CMakeFiles/rebuild_cache.dir
