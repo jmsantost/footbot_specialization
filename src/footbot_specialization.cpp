@@ -55,10 +55,6 @@ bool CFootBotSpecialization::ObstacleAvoidance() {
 void CFootBotSpecialization::Search() {
     m_pcLEDs->SetAllColors(CColor::YELLOW);
     m_pcWheels->SetLinearVelocity(m_fMaxSpeed, m_fMaxSpeed);
-    
-    // ========================================================
-    // ==         NUEVA LÍNEA DE DEBUG AQUÍ                  ==
-    // ========================================================
     const auto& tBlobs = m_pcCamera->GetReadings().BlobList;
     RLOG << GetId() << ": Searching... " << tBlobs.size() << " blobs detected." << std::endl;
 
