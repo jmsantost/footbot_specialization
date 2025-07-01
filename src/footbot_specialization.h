@@ -38,9 +38,6 @@ private:
     void Search();
     void GoToTask();
     void Work();
-    // ========================================================
-    // ==         AQUÍ ESTÁ LA LÍNEA QUE FALTABA             ==
-    // ========================================================
     bool ObstacleAvoidance();
     
     const CCI_ColoredBlobOmnidirectionalCameraSensor::SBlob* GetClosestAvailableTask();
